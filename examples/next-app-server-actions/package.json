@@ -1,0 +1,24 @@
+{
+  "name": "example-next-app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^13.5.6",
+    "next-international": "workspace:*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.7",
+    "@types/react": "^18.2.31",
+    "eslint": "^8.52.0",
+    "eslint-config-next": "^13.5.6",
+    "typescript": "^5.2.2"
+  }
+}
